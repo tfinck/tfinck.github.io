@@ -1,5 +1,43 @@
 <!DOCTYPE html>
 <html>
-   <title>Test</title>
-   <body><h2>Hey world wtf is wrong with this</h2></body>
+    <head>
+      <title>build this webpage - Google Search</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div id="container">
+         <div id="header">
+            <div id="logo"><h1 class="link-logo"><a href="#">GOOGLE</a></h1></div>
+            <div id="g-search-nav">
+               <div id="search">
+                  <form id="gsearch" method="get" action="http://www.google.com">
+		              <input type="text" class="textinput" name="q" size="21" maxlength="2048">
+	            	</form>
+	            	<div class="micro"></div>
+	            	<div class="myButton"><INPUT type="submit" name="" value=""></div>
+               </div>
+               <div id="topnav">
+                  <ul>
+                     <li><a class="active" href="#">All</a></li>
+                     <li><a href="#">Videos</a></li>
+                     <li><a href="#">News</a></li>
+                     <li><a href="#">Maps</a></li>
+                     <li><a href="#">Images</a></li>
+                     <li><a href="#">More</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div id="signin"></div>
+         </div>
+         <div id="content">
+            <div id="results"></div>
+            <div id="related"></div>
+            <div id="pages"></div>
+         </div>
+         <div id="footer">
+            <div id="location"></div>
+            <div id="botnav"></div>
+         </div>
+      </div>
+   </body>
 </html>

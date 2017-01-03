@@ -1,0 +1,130 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color:#FFFFFF;
+}
+
+#header {
+   background-color:#FAFAFA;
+   width:100%;
+   margin:0;
+   padding:0;
+   height:125px;
+   overflow:hidden;
+   position:relative;
+}
+#logo {
+   /*border: 3px solid #73AD21;*/
+   margin:0;
+   padding:0;
+   position:absolute;
+   top:26px;
+   left:13px;
+   width:123px;
+   height:42px;
+   background-image: url("https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+   
+}
+#search {
+   top:20px;
+   left:150px;
+   border: 1px solid #E1E1E1;
+   width:633px;
+   height:46px;
+   position:relative;
+   border-radius: 3px;
+   background-color:#FFFFFF;
+   box-shadow: 0 4px 2px -2px #E0E0E0;
+   transition: all 0.3s ease-in-out;
+   
+}
+#search:hover {
+   box-shadow: 0 3px 6px #d1d1d1;
+   transition: box-shadow 0.3s ease-in-out;
+}
+#topnav {
+   font-family:Arial;
+   font-size:13px;
+   position:relative;
+   top:25px;
+   left:150px;
+}
+#topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#topnav li {
+   float: left;
+}
+#topnav li a {
+   display:block;
+   padding:18px 16px;
+   padding-bottom:-10px;
+   text-decoration:none;
+   color:#777B7F;
+}
+input[type="text"]
+{
+    background: transparent;
+    border: none;
+    outline: none;
+    width:513px;
+    height:24px;
+    position:relative;
+    left:18px;
+    top:9px;
+    font-size:16px;
+}
+#topnav .active {
+   font-weight:bold;
+   color:#4285F4;
+   background-image:url(https://puu.sh/tabbI/55a49cb743.png);
+   background-repeat:no-repeat;
+   background-size:contain;
+   background-position:bottom;
+}
+#topnav li a:hover:not(.active) {
+   color: #474747;
+}
+.link-logo a {
+   display : block;
+	height :42px;
+	position:relative;
+	top:-20px;
+	left:-5px;
+	text-indent:-9999px;
+}
+.myButton input {
+    background:url(https://i.imgur.com/EpEOYFT.png) no-repeat;
+    cursor:pointer;
+    width: 23px;
+    height: 23px;
+    border: none;
+    top:11px;
+    left:593px;
+    position:absolute;
+    background-size:contain;
+    outline: none;
+}
+.micro {
+   
+   background:url(https://i.imgur.com/AWzNZfA.png) no-repeat;
+   cursor:pointer;
+   width:21px;
+   height:28px;
+   background-size:contain;
+   left: 558px;
+   top:8px;
+   position:absolute;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
