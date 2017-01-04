@@ -162,12 +162,9 @@ input[type="text"]
    top:1150px;
    left:150px;
 }
-#related-searches {
-   text-decoration:none;
-}
+
 .rel_col
 {
-  text-decoration: none;
   display: inline-block;
   font-size: 14px;
   max-width: 100%;
@@ -177,6 +174,7 @@ input[type="text"]
 
 .rel_col a
 {
+  text-decoration:none;
   display: block;
   padding: 3px 32px 3px 0;
   color: #1a0dab;
