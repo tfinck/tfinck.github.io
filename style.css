@@ -5,12 +5,10 @@ html, body
     font-family:Arial;
     min-width: 1000px;
 }
-
-
 body{
    background-color:#FFFFFF;
 }
-
+/*header*/
 #header {
    background-color:#FAFAFA;
    width:100%;
@@ -129,6 +127,89 @@ input[type="text"]
    font-size:13px;
    line-height: 32px;
 }
+
+
+/*main body*/
+#search-results {
+   width:600px;
+   height:1269px;
+}
+#item {
+   position:relative;
+   left:100px;
+}
+#results {
+   width:255px;
+   height: 33px;
+   left:165px;
+   position:absolute;
+   font-size:12px;
+   color:#808FAB;
+}
+#search-results
+{
+  position:absolute;
+  padding-top:50px;
+  left:150px;
+  width: 600px;
+}
+
+.result
+{
+  display: block;
+  margin-bottom: 26px;
+}
+
+.link
+{
+  display: block;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+.link a
+{
+  color: #1a0dab;
+}
+
+.path
+{
+  display: inline;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #006621;
+  font-style: normal;
+}
+
+.span_action_menu
+{
+  display: inline-block;
+  background: url(media/action_menu_alpha.png) no-repeat 0 0;
+  background-size: 8px 6px;
+  width: 13px;
+  height: 9px;
+  margin-left: 3px;
+}
+
+.text_content
+{
+  font-family: 'Roboto', arial, sans-serif;
+  font-size: 13px;
+  color: #545454;
+  line-height: 1.4;
+}
+
+em
+{
+  color: #6a6a6a;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
 .link-logo a {
    display : block;
 	height :42px;
