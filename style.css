@@ -186,7 +186,7 @@ input[type="text"]
 .span_action_menu
 {
   display: inline-block;
-  background: url(media/action_menu_alpha.png) no-repeat 0 0;
+  /*background: url(media/action_menu_alpha.png) no-repeat 0 0;*/
   background-size: 8px 6px;
   width: 13px;
   height: 9px;
