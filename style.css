@@ -3,6 +3,7 @@ html, body
     margin: 0;
     padding: 0;
     font-family:Arial;
+    min-width: 1000px;
 }
 
 
@@ -58,6 +59,7 @@ body{
    position:relative;
    top:25px;
    left:150px;
+   clear:both;
 }
 #topnav ul {
     list-style-type: none;
